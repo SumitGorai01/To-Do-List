@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 62.5rem;
+}
+
+body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: #140233;
+    background-image: url('/assests/bg.webp') ;
+    background-position: center;   
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    width: 50rem;
+    border-radius: 2rem;
+    opacity: 0.8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0ef;
+    border-radius: 3rem;
+    margin: 2rem;
+    padding: .5rem;
+}
+
+.body span {
+    background: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 0.5em;
+    margin-left: 2rem;
+}
+
+.body input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 90%;
+}
+
+.body i {
+    cursor: pointer;
+    padding: 0.4rem;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #000;
+}
+
+li {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0ef;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+}
+
+.list-items {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0.5rem;
+}
+
+.todo-controls {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 50px;
+}
+.todo-controls :hover {
+  background-color: #611212;
+  color: black;
+}
+
+.delete {
+    color: rgb(244, 6, 6);
+}
+.edit{
+    color: rgb(0, 132, 255);
+}
